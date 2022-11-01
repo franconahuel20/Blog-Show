@@ -1,2 +1,5 @@
-# Blog-Show
-Movie, series and other TV shows reviews website.
+# Blog-Show Front
+
+## Scripts
+
+### `npm start`
