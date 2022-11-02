@@ -9,8 +9,8 @@ const Main = () => {
     <>
       <Container fluid className="px-0 d-flex flex-column min-vh-100">
         <Header />
-        <Landing />
         <Carousel />
+        <Landing />        
         <Footer />
       </Container>
     </>
