@@ -1,14 +1,17 @@
 
 import React from "react";
 
-import { Slider } from "./Carousel";
+import  { NavBar }  from "../components/NavBar";
+ import { Slider } from "./Carousel";
 
 
 const Header = () => {
-  return (
+  return ( 
+ 
+ <Slider />
   
   
-  <Slider />
+  
   
   )
 
