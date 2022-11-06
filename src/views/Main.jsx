@@ -3,11 +3,13 @@ import Carousel from "../components/Carousel";
 import Landing from "../components/Landing";
 import Footer from "../components/Footer";
 import { Container } from "react-bootstrap";
+import  {NavBarBlog}  from "../components/NavBarBlog";
 
 const Main = () => {
   return (
     <>
       <Container fluid className="px-0 d-flex flex-column min-vh-100">
+        <NavBarBlog/>
         <Header />
         <Carousel />
         <Landing />        

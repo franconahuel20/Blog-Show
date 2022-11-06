@@ -1,7 +1,18 @@
+
 import React from "react";
 
+import { Slider } from "./Carousel";
+
+
 const Header = () => {
-  return <h1>Header</h1>;
+  return (
+  
+  
+  <Slider />
+  
+  )
+
+  
 };
 
 export default Header;
