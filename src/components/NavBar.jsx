@@ -15,28 +15,24 @@ import Col from 'react-bootstrap/Col';
 export const NavBar = () => {
   return (
     <>
-      <Navbar sticky='top' className='w-100' bg="dark" variant="dark">
+      <Navbar sticky='top' className='w-100 pb-3' bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#home"><Row xs={2} md={4} lg={6}>
             <div>
-              <div>
-                <img src="./img/logo.ico" alt="logo" />
+            <Col>
+            <div>
+              <img src="./img/logo.ico" alt="logo" />
               </div>
-          
-                       
-              <div>
-                <img className='mx-1' src="./img/instasplash.png" alt="instagram" />
-              
-              
-                <img className='mx-1' src="./img/facebook-splash.png" alt="instagram" />
-              
-              
-                <img className='mx-1' src="./img/twitter-splash.png" alt="instagram" />
-              
-            
+              </Col>
               </div>
-              </div>
-            </Navbar.Brand>
+              <div >
+            <Col id='socialBar' className="flex-column">            
+              <div className='iconInsta'><link rel="stylesheet" href="" /><img className='iconSocial' src="./img/instasplash.png" alt="" /></div>
+              <div className='iconFacebook'><link rel="stylesheet" href="" /><img className='iconSocial' src="./img/facebook-splash.png" alt="" /></div>
+              <div className='iconTwitter'><link rel="stylesheet" href="" /><img className='iconSocial' src="./img/twitter-splash.png" alt="" /></div>
+            </Col>
+            </div>
+            </Row></Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#features">Destacado</Nav.Link>
             <Nav.Link href="#features">Contacto</Nav.Link>

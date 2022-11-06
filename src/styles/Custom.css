@@ -5,3 +5,30 @@
     color:#FFFFFF
 }
 .gradient1{background-image: linear-gradient(to top, #2e2e2e, transparent)}
+
+#socialBar{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin:3px;
+}
+
+.iconSocial{
+    text-decoration: none;
+    padding-left:5px ;
+    
+}
+.iconInsta:hover{
+    padding-left: 1.5rem;
+    width: 85%;
+}
+.iconFacebook:hover{
+    padding-left: 1.5rem;
+    width: 85%;
+}
+.iconTwitter:hover{
+    padding-left: 1.5rem;
+    width: 85%;
+}
+
