@@ -8,9 +8,7 @@ import  {NavBar}  from "../components/NavBar";
 const Main = () => {
   return (
     <>
-    <NavBar />
       <Container fluid className="px-0 d-flex flex-column min-vh-100">
-        
         <Header />
         <Carousel />
         <Landing />        

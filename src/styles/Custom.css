@@ -1,13 +1,7 @@
 /* Paleta de colores:
-#000000 #CF0A0A #DC5F00 #EEEEEE */
+#000000 #121212 #F5c518 #FFFFFF*/
 
 *{
-    background-color: black;
+    color:#FFFFFF
 }
-
-.rojo{
-    color:#CF0A0A ;
-}
-.naranja{
-    color: #DC5F00;
-}
+.gradient1{background-image: linear-gradient(to top, #2e2e2e, transparent)}
