@@ -27,20 +27,20 @@ export const NavBar = () => {
               </div>
               <div >
             <Col id='socialBar' className="flex-column">            
-              <div className='iconInsta'><link rel="stylesheet" href="" /><img className='iconSocial' src="./img/instasplash.png" alt="" /></div>
-              <div className='iconFacebook'><link rel="stylesheet" href="" /><img className='iconSocial' src="./img/facebook-splash.png" alt="" /></div>
-              <div className='iconTwitter'><link rel="stylesheet" href="" /><img className='iconSocial' src="./img/twitter-splash.png" alt="" /></div>
+              <div className='iconInsta navOption'><link rel="stylesheet" href="" /><img className='iconSocial' src="./img/instasplash.png" alt="" /></div>
+              <div className='iconFacebook navOption'><link rel="stylesheet" href="" /><img className='iconSocial' src="./img/facebook-splash.png" alt="" /></div>
+              <div className='iconTwitter navOption'><link rel="stylesheet" href="" /><img className='iconSocial' src="./img/twitter-splash.png" alt="" /></div>
             </Col>
             </div>
             </Row></Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#features">Destacado</Nav.Link>
-            <Nav.Link href="#features">Contacto</Nav.Link>
+            <Nav.Link href="#features"><span className='navOption' >Destacado</span></Nav.Link>
+            <Nav.Link href="#features"><span className='navOption' >Contacto</span></Nav.Link>
             
           </Nav>
           <Nav>
-            <Nav.Link href="#deets"><FontAwesomeIcon icon={faThumbsUp} /><Badge className='mx-1' bg="secondary">New</Badge></Nav.Link>
-            <Nav.Link href="#memes"><FontAwesomeIcon icon={faAt} />
+            <Nav.Link  href="#deets"><FontAwesomeIcon className='navOption' icon={faThumbsUp} /><Badge className='mx-1' bg="secondary">New</Badge></Nav.Link>
+            <Nav.Link  href="#memes"><FontAwesomeIcon className='navOption' icon={faAt} /><span className='navOption'>Contactanos</span>
             </Nav.Link>
           </Nav>
         </Container>
