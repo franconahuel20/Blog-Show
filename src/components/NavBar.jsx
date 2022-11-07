@@ -21,7 +21,7 @@ export const NavBar = () => {
             <div>
             <Col>
             <div>
-              <img src="./img/logo.ico" alt="logo" />
+              <img src="./img/logo.png" alt="logo" />
               </div>
               </Col>
               </div>
