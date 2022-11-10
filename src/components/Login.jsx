@@ -1,12 +1,12 @@
-import {useEffect} from "react";
-import {useState} from "react";
-import {Container} from "react-bootstrap";
+/* import {useEffect} from "react"; */
+import { useState } from "react";
+import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import {Link, useNavigate} from "react-router-dom";
-import {ToastContainer, toast} from "react-toastify";
+import { Link, useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
 
-function Login({auth, login, validate, setAuth}) {
+function Login({ auth, login, validate, setAuth }) {
   const [mail, setMail] = useState("");
   const [pass, setPass] = useState("");
   const navigate = useNavigate();
@@ -16,7 +16,7 @@ function Login({auth, login, validate, setAuth}) {
     if (validate(mail, pass)) {
       login(mail);
       navigate("/");
-      toast(`Bienvenido ${mail}!`, {autoClose: 1500});
+      toast(`Bienvenido ${mail}!`, { autoClose: 1500 });
     }
   };
 
@@ -43,15 +43,20 @@ function Login({auth, login, validate, setAuth}) {
             onInput={(e) => setPass(e.target.value)}
           />
         </Form.Group>
-        <Button type="submit" variant="primary" onClick={(e) => handleValidation(e)}>
+        <Button
+          type="submit"
+          variant="primary"
+          onClick={(e) => handleValidation(e)}
+        >
           Submit
         </Button>
 
         <span className="ms-3">
-          Sí no tenés usuario, <Link to="/signup">click aquí</Link> para registrarte.
+          Sí no tenés usuario, <Link to="/signup">click aquí</Link> para
+          registrarte.
         </span>
       </Form>
     </Container>
   );
-}  
+}
 export default Login;
