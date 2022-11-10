@@ -7,7 +7,8 @@ import {faAt, faThumbsUp} from '@fortawesome/free-solid-svg-icons';
 import Badge from 'react-bootstrap/Badge';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import Login from "./Login";
+import Form from "react-bootstrap/Form";
 
 
 

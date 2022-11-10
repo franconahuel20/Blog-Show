@@ -1,52 +1,22 @@
 import Header from "../components/Header";
-import Carousel from "../components/Carousel";
-import Landing from "../components/Landing";
 import Footer from "../components/Footer";
 import Login from "../components/Login";
+import Forgot_Password from "../components/Forgot_Password";
+import Register from "../components/Register";
 import { Container } from "react-bootstrap";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
-import  { NavBar }  from "../components/NavBar";
-=======
-import {Route, Routes, BrowserRouter} from "react-router-dom";
-
-
-const Main = ( auth,
-  login,
-  logout,
-  validate,
-  setAuth) => {
+const Main = ({ auth, login, logout, validate, setAuth }) => {
   return (
-    <>
-
-    <NavBar/>
-      <Container fluid className="px-0 d-flex flex-column min-vh-100">
-        <Header />
-
-      <Container
-        fluid
-        className="px-0 d-flex flex-column min-vh-100"
-        style={{ backgroundColor: "#000000" }}
-      >
-        <Header 
-        auth={auth}
-        />
-        <BrowserRouter>
-        <Routes>
-        <Route
-          element={
-            <Login auth={auth} login={login} setAuth={setAuth} validate={validate} />
-          }
-          path="/login"
-        />
-         </Routes>
-         </BrowserRouter>
-        <Landing />
-
-        <Carousel />
-        <Landing />        
-        <Footer />
-      </Container>
-    </>
+    <Container fluid className="px-0 d-flex flex-column min-vh-100">
+    <Header />
+    <Routes>
+      <Route element={<Login />} path="/Login"></Route>
+      <Route element={<Register />} path="/Register"></Route>
+      <Route element={<Forgot_Password />} path="/Forgot_Password"></Route>
+    </Routes>
+    <Footer />
+  </Container>
   );
 };
 

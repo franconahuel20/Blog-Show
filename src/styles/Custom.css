@@ -36,3 +36,30 @@
   text-shadow: 2px 2px 5px #999;
   filter: drop-shadow(2px 2px 5px #999);
 }
+
+.logo {
+    border-radius: 50%;
+    margin: 1rem;
+  }
+
+  .modal_styles {
+    text-decoration: none;
+    color: var(--blueColor);
+  }
+  .modal_styles:hover {
+    color: var(--redColor);
+  }
+  .ModalPass {
+    opacity: 0.8;
+  }
+
+  .FondoPass {
+    overflow: hidden;
+    filter: saturate(40%) contrast(1.7);
+    max-height: 60vh;
+  }
+  
+  .FondoPass img {
+    position: relative;
+    top: -12rem;
+  }
