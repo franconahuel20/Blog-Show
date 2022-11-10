@@ -4,7 +4,7 @@ import Landing from "../components/Landing";
 import Footer from "../components/Footer";
 import Login from "../components/Login";
 import { Container } from "react-bootstrap";
-import {Route, Routes} from "react-router-dom";
+import {Route, Routes, BrowserRouter} from "react-router-dom";
 
 const Main = ( auth,
   login,
@@ -21,13 +21,16 @@ const Main = ( auth,
         <Header 
         auth={auth}
         />
-      
+        <BrowserRouter>
+        <Routes>
         <Route
           element={
             <Login auth={auth} login={login} setAuth={setAuth} validate={validate} />
           }
           path="/login"
         />
+         </Routes>
+         </BrowserRouter>
         <Landing />
         <Carousel />
         <Footer />
