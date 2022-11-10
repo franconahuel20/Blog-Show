@@ -53,6 +53,5 @@ function Login({auth, login, validate, setAuth}) {
       </Form>
     </Container>
   );
-}
-
+}  
 export default Login;
