@@ -17,8 +17,8 @@ const Article = ({ data }) => {
             />
           </Card.Body>
           <Card.Footer>
-            <strong>{data.name}</strong>
-            <h4>{data.description}</h4>
+            <h4>{data.name}</h4>
+            <strong>{data.description}</strong>
           </Card.Footer>
         </Card>
       </Link>
