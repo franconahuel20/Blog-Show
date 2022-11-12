@@ -1,21 +1,10 @@
-
 import React from "react";
 
-import  { NavBar }  from "../components/NavBar";
- import { Slider } from "./Carousel";
-
+import { NavBar } from "../components/NavBar";
+import { Slider } from "./Carousel";
 
 const Header = () => {
-  return ( 
- 
- <Slider />
-  
-  
-  
-  
-  )
-
-  
+  return <Slider />;
 };
 
 export default Header;
