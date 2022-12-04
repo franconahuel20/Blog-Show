@@ -105,15 +105,19 @@ similar a la página de productos pero mostrando un listado de favoritos
 
 - Se desarrollará lo siguiente:
     
-        1. API con Node + Express con todos los endpoints necesarios para cubrir las necesidades del front: 1) Proveer la información para ser consumida 2) Proveer funcionalidades tipo CRUD (validando si el rol del usuario lo permite) 3) Proveer funcionalidades de login/ register.
-        2. Se debe implementar:
-            1. Bcrypt
-            2. Mongoose
-            3. Dotenv
-            4. JWT
-            5. Express-validator
-            6. Paginado (opcional)
-            7. Envío de mails (opcional)
+- API con Node + Express con todos los endpoints necesarios para cubrir las necesidades del front: 
+    - Proveer la información para ser consumida 
+    - Proveer funcionalidades tipo CRUD (validando si el rol del usuario lo permite) 
+    - Proveer funcionalidades de login/ register.
+
+- Se debe implementar:
+    - Bcrypt
+    - Mongoose
+    - Dotenv
+    - JWT
+    - Express-validator
+    - Paginado (opcional)
+    - Envío de mails (opcional)
 
 ## Fecha presentación
 La presentación del proyecto será en forma grupal, el 5/12/2022.
