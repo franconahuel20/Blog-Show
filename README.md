@@ -16,16 +16,14 @@
     - Blog - Travel
 
 - El Scrum Master creará el tablero Trello con los siguientes requisitos (todos son obligatorios):
-4. **Exploring Status Codes**: 
-        1. Create a PySpark script that allows you: 
-            1. Counting 304 Response Codes
-            2. Listing the Top Five 304 Response Code paths
-            3. Listing the Top tene 302 Response Code Hosts
-            4. Listing 206 / 404 Errors per Day
-        2. Create a PySpark script that allows you:
-            1. Hourly 206 Errors
-            2. Hourly 304 Errors
-    
+
+- Columna de info del proyecto que incluya estas cards:
+    - Integrantes
+    - Logo
+    - Paleta de colores (máximo recomendado 4 colores)
+    - Mock del diseño de la app, el formato puede ser cualquiera de imagen
+    - Sitios benchmark enviados a los que se apunta en función del proyecto (ejemplo, si me toco un    ECommerce, puedo poner una captura de Mercado Libre y apuntar a ese formato y calidad)
+
         1. Columna de info del proyecto que incluya estas cards:
             1. Integrantes
             2. Logo
