@@ -24,14 +24,15 @@
     - Mock del diseño de la app, el formato puede ser cualquiera de imagen
     - Sitios benchmark enviados a los que se apunta en función del proyecto (ejemplo, si me toco un    ECommerce, puedo poner una captura de Mercado Libre y apuntar a ese formato y calidad)
 
-        1. Columna de info del proyecto que incluya estas cards:
-            1. Integrantes
-            2. Logo
-            3. Paleta de colores (máximo recomendado 4 colores)
-            4. Mock del diseño de la app, el formato puede ser cualquiera de imagen
-            5. Sitios benchmark enviados a los que se apunta en función del proyecto (ejemplo, si me toco un    ECommerce, puedo poner una captura de Mercado Libre y apuntar a ese formato y calidad)
-        2. Columna de reuniones que incluya las siguientes cards:
-            1. Evidencia de cada Daily/ Reunión de equipo, detallada con fecha y contenido de la reunión
+- Columna de info del proyecto que incluya estas cards:
+    - Integrantes
+    - Logo
+    - Paleta de colores (máximo recomendado 4 colores)
+    - Mock del diseño de la app, el formato puede ser cualquiera de imagen
+    - Sitios benchmark enviados a los que se apunta en función del proyecto (ejemplo, si me toco un    ECommerce, puedo poner una captura de Mercado Libre y apuntar a ese formato y calidad)
+
+- Columna de reuniones que incluya las siguientes cards:
+    - Evidencia de cada Daily/ Reunión de equipo, detallada con fecha y contenido de la reunión
             
 - Columna de tareas con los siguientes estados (todos obligatorios):
     - Backlog (de donde estarán todas las tareas inicialmente)
